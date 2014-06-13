@@ -1,0 +1,20 @@
+{
+  "name": "cakewalk",
+  "version": "0.0.0",
+  "authors": [
+    "SeraphiPod <seraphipod@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.1.0",
+    "bootstrap": "~3.1.1",
+    "jquery-color": "~2.1.2"
+  }
+}
