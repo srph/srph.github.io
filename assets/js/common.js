@@ -64,4 +64,6 @@
 		move( location.offset().top );
 	});
 
+	$('.content').elmScroll(900);
+
 })(window.jQuery);

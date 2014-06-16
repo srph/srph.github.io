@@ -184,3 +184,14 @@ hr {
 p {
 	font-size: 18px;
 }
+
+.list-head {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+.col-md-3 {
+	padding-left: 0;
+	padding-right: 0;
+}

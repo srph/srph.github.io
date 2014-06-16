@@ -1,0 +1,22 @@
+{
+  "name": "jquery-element-scorll",
+  "version": "0.5.3",
+  "ignore": [
+    "README.md",
+    "bower.json"
+  ],
+  "dependencies": {
+    "jquery": ">=2.0"
+  },
+  "homepage": "https://github.com/srph/jquery-element-scroll",
+  "_release": "0.5.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.5.3",
+    "commit": "ec1ba33614ec97e0d8fecf346efe9bd4e8d5c2e1"
+  },
+  "_source": "git://github.com/srph/jquery-element-scroll.git",
+  "_target": "~0.5.3",
+  "_originalSource": "jquery-element-scroll",
+  "_direct": true
+}
