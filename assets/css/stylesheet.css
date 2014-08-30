@@ -26,6 +26,12 @@ body {
 		font-size: 13px;
 	}
 }
+@media(max-width: 240px) {
+	.container {
+		width: 200px;
+		font-size: 12px;
+	}
+}
 @media(max-height: 500px) {
 	.container {
 		margin-top: 15px;
