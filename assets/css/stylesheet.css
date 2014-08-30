@@ -1,0 +1,136 @@
+body {
+	text-align: center;
+	font-family: "Open Sans", "Helvetica", "Helvetica Neue", sans-serif, serif;
+	font-weight: 100;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	color: #707070;
+}
+.container {
+	height: 50%;
+	width: 468px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+@media(max-width: 468px) {
+	.container {
+		/*margin-top: 15px;*/
+		/*margin-bottom: 15px;*/
+		bottom: 25%;
+		font-size: 14px;
+		width: 368px;
+	}
+}
+@media(max-width: 368px) {
+	.container {
+		width: 300px;
+		font-size: 13px;
+	}
+}
+
+
+p {
+	line-height: 28px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	color: red;
+
+	-webkit-transition: 0.5s all;
+	   -moz-transition: 0.5s all;
+		  o-transition: 0.5s all;
+	        transition: 0.5s all;
+}
+strong {
+	font-weight: 600;
+}
+
+
+.dp {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+
+	position: relative;
+}
+.dp:hover {
+	-webkit-animation-name: poppun;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration: 1;
+
+	animation-name: poppun;
+	animation-duration: 1s;
+	animation-iteration: 1;
+}
+.dp img {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: -23px;
+}
+
+.social-media:before {
+	content: "";
+	display: block;
+	border-top: 1px solid #ddd;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.social-media ul {
+	position: relative;
+	left: 0;
+	right: 0;
+	padding-left: 0;
+	margin-left: -15px;
+	margin-right: -15px;
+	min-width: 1px;
+	width: auto;	
+}
+.social-media ul > li {
+	display: inline;
+	list-style: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+.social-media ul > li a {
+	color: #707070;
+}
+.social-media ul > li a:hover {
+	color: red;
+
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+/* anim8ions */
+/* anim8ions */
+@-webkit-keyframes poppun {
+	10% { transform: scale(1.2, 1.2); }
+	50% { transform: scale(1.225, 1.225); }
+	100% { transform: scale(1, 1); }
+}
+
+@keyframes poppun {
+	10% { transform: scale(1.2, 1.2); }
+	50% { transform: scale(1.225, 1.225); }
+	100% { transform: scale(1, 1); }
+}
