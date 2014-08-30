@@ -31,6 +31,10 @@ body {
 		width: 200px;
 		font-size: 12px;
 	}
+
+	.social-media ul > li {
+		font-size: 22px;
+	}
 }
 @media(max-height: 500px) {
 	.container {
@@ -38,10 +42,6 @@ body {
 		margin-bottom: 15px;
 		bottom: none;
 		top: none;
-	}
-
-	.social-media ul > li {
-		font-size: 22px;
 	}
 }
 
