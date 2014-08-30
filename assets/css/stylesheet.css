@@ -39,6 +39,10 @@ body {
 		bottom: none;
 		top: none;
 	}
+
+	.social-media ul > li {
+		font-size: 22px;
+	}
 }
 
 
