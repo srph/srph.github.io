@@ -16,9 +16,6 @@ body {
 }
 @media(max-width: 468px) {
 	.container {
-		/*margin-top: 15px;*/
-		/*margin-bottom: 15px;*/
-		bottom: 25%;
 		font-size: 14px;
 		width: 368px;
 	}
@@ -27,6 +24,14 @@ body {
 	.container {
 		width: 300px;
 		font-size: 13px;
+	}
+}
+@media(max-height: 500px) {
+	.container {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		bottom: none;
+		top: none;
 	}
 }
 
@@ -58,7 +63,6 @@ strong {
 	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
-
 	position: relative;
 }
 .dp:hover {
@@ -76,7 +80,6 @@ strong {
 	position: absolute;
 	left: -23px;
 }
-
 .social-media:before {
 	content: "";
 	display: block;
