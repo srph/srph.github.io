@@ -93,8 +93,13 @@ strong {
 .social-media:before {
 	content: "";
 	display: block;
-	border-top: 1px solid #ddd;
+	height: 1px;
 	width: 50%;
+	background: -webkit-linear-gradient(90deg, #fff 10%, #ddd 50%, #fff 100%);
+	background: -moz-gradient(90deg, #fff 10%, #ddd 50%, #fff 100%);
+	background: -o-gradient(90deg, #fff 10%, #ddd 50%, #fff 100%);
+	background: -ms-linear-gradient(90deg, #fff 10%, #ddd 50%, #fff 100%);
+	background: linear-gradient(90deg, #fff 10%, #ddd 50%, #fff 100%);
 	margin-left: auto;
 	margin-right: auto;
 
