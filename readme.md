@@ -1,5 +1,5 @@
 ## o
-Website with swag
+Website with swag. [Original repo](https://github.com/srph/o).
 
 ![preview](preview.png)
 
