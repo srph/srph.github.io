@@ -1,0 +1,56 @@
+@mixin btn-variant($local-bg) {
+  color: $local-bg;
+  border-color: $local-bg;
+
+  &:hover,
+  &:focus {
+    $local-dark-bg: darken($local-bg, 15%);
+
+    color: $local-dark-bg;
+    border-color: $local-dark-bg;
+  }
+}
+
+@mixin btn-variant-inverted($color) {
+  background: transparent;
+  color: $color;
+  border-color: $color;
+
+  &:hover,
+  &:focus {
+    color: $brand-white;
+    background: $color;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0 10px;
+  height: 36px;
+  line-height: 40px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  outline: none; /* remove native outline */
+  cursor: pointer;
+  transition: 0.1s all;
+
+  // To center all items inside the button vertically
+  // See https://github.com/dev-onenetworkecommerce/aia/issues/84
+  & > * {
+    vertical-align: middle;
+  }
+
+  &,
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.-primary {
+    @include btn-variant($emerald);
+  }
+
+  > .icon:first-child {
+    margin-right: 10px;
+  }
+}

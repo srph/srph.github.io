@@ -1,0 +1,29 @@
+.icon-widget {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+
+  > .icon {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  // Since .icons are expected to be links
+  > .icon,
+  > .icon:hover {
+    text-decoration: none;
+  }
+
+  > .icon .fa {
+    display: block;
+    width: 100%;
+    color: $black;
+    transition: 0.15s all;
+  }
+
+  .icon:hover .fa {
+    color: $emerald;
+  }
+}

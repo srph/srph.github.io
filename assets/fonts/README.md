@@ -1,1 +1,0 @@
-[Open Sans Font](https://www.google.com/fonts/specimen/Open+Sans) provided by [Google Fonts](https://www.google.com/fonts/), converted with [Font Squirrel](http://www.fontsquirrel.com/tools/webfont-generator).

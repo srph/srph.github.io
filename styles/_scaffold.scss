@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Fira Sans", Helvetica, "Helvetica Neue", sans-serif;
+  font-weight: 100;;
+  font-size: 14px;
+  color: $black;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.vtc-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
