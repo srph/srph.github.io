@@ -447,6 +447,7 @@ p, h1, h2, h3, h4, h5, h6 {
     color: #4A4A4A;
     transition: 0.15s all; }
   .icon-widget .icon:hover .fa {
-    color: #50E3C2; }
+    color: #50E3C2;
+    transform: scale(1.3); }
 
 /*# sourceMappingURL=style.css.map */
