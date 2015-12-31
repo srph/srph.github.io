@@ -1,0 +1,24 @@
+{
+  "name": "srph.github.io",
+  "version": "1.0.0",
+  "description": "Website with swag. [Original repo](https://github.com/srph/o).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srph/srph.github.io.git"
+  },
+  "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srph/srph.github.io/issues"
+  },
+  "homepage": "https://github.com/srph/srph.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.2.3",
+    "cssnano-cli": "^1.0.2",
+    "postcss-cli": "^2.3.3"
+  }
+}
